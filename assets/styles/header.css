@@ -1,5 +1,6 @@
 header{
   padding-block: 3.2rem;
+  font: var(--paragraph-md);
 }
 
 header .container{
@@ -28,10 +29,6 @@ header .container{
   margin-bottom: .8rem;
 }
 
-#profile p{
-  font: var(--paragraph-md);
-}
-
 #info{
   list-style: none;
 
@@ -41,7 +38,6 @@ header .container{
 }
 
 #info li{
-  font: var(--paragraph-md);
   display: flex;
   align-items: center;
   gap: .8rem;
