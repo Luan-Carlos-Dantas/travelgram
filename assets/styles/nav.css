@@ -1,0 +1,20 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  line-height: 0;
+  padding: 2.4rem;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: .8rem;
+}
+
+nav ul li:last-child i{
+  font-size: 4rem;
+}
