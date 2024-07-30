@@ -1,3 +1,18 @@
-@import url(./global.css);
-@import url(./nav.css);
-@import url(./header.css);
+main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  padding-block: 2.4rem;
+}
+
+main img{
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+main img:hover{
+  border-radius: 8px;
+  transform: scale(1.1);
+}
